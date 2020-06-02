@@ -1,0 +1,199 @@
+/* 8) універсальний селектор */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 1) селектор тега */
+ul {
+	margin-top: 20px;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	cursor: pointer;
+}
+
+/* 5) контекстний селектор (селектор нащадок) */
+ul li a:hover {
+	font-family: Arial, sans-serif;
+	/* font-style: bold; */
+	font-size: 1.18em;
+	background-color: black;
+}
+
+
+/* 2) селектор класа */
+.header {
+	background-color: #BFC9CA;
+	height: 100px;
+}
+
+img.lampImg {
+	float: left;
+	width: 60px;
+	margin: 19px 10px 0px 10px;
+}
+
+.header h1 {
+	letter-spacing: 9px;
+	padding: 24px 0 0 10px;
+} 
+
+/* 10) селектор псевдоелементів */
+.header h1:first-letter {
+	font-size: 1.1em;
+}
+
+.header h4 {
+	letter-spacing: 0.05em;
+	padding: 0 0 0 10px;
+}
+
+
+
+
+.site_content {
+	overflow: hidden;
+	background-color: #F2F4F4;
+}
+
+.menubar {
+	width: 180px;
+	text-align: left;
+	/* overflow: hidden; */
+	position: relative;
+	float: right;
+	padding: 25px 25px;
+}
+
+.menubar a {
+	margin-bottom: 20px;
+	color: #0B5345;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.menubar a:hover {
+	color: #76D7C4;
+}
+
+.menubar a:active {
+	color: red;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 180px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	height: 190px;
+	overflow-y: scroll;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+.content {
+	padding: 15px;
+	overflow: hidden;
+	background-color: #FCFCFC;
+}
+
+/* 	src^="A..."
+	src$="...A"
+	src*="...A..."  
+	src~="A B C"
+	src|="A-B-C" */
+
+/* 4) селектор атрибута */
+img[src$="MyImg.jpg"] {
+	float: left; 
+    width: 200px;
+    box-shadow: 3px 3px 3px #777;
+    margin: 0px 10px 8px 0px;
+}
+
+/* 7) селектор сусідніх елементів */
+.content img + p {
+	padding-top: 20px;
+}
+
+.content p {
+	font-size: 1.05em;
+ 	margin: 0px 0px 5px 0px;
+	text-indent: 13px;
+	text-align: justify;
+}
+
+
+
+.footer {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	background-color: #BFC9CA;
+	text-align: center;
+}
+
+.footer p {
+	padding-top: 10px;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+/*6) Селектор дочірніх елементів */
+.footer > p > a {
+	color: #0B5345;
+	text-decoration: none;
+}
+
+/* 9) статичний псевдоклас */
+.footer a:hover {
+	font-family: Arial, sans-serif;
+	/* font-style: bold; */
+	font-size: 1em;
+	background-color: black;
+	color: white;
+}
+
+.footer a:active {
+	color: red;
+}
+
+/* 9) динамічний псевдоклас */
+.footer a:visted {
+	color: blue;
+}
+
+.footer h4 {
+	margin-top: 10px;
+}
