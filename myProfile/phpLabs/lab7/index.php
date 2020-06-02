@@ -17,7 +17,7 @@
 <body>
 	<h2>Інформація про навчальні предмети</h2>
 	<table  border="1" cellspacing="2" >
-		<form method='POST' action='http://localhost/myProfile/phpLabs/lab7/send.php'>
+		<form method='POST' action='send.php'>
 			<tr>
 				<th>Предмет</th>
 				<th>Семестр</th>
@@ -72,7 +72,7 @@
 	<h2>Добавити нового лектора</h2>
 	<div class="addLectorTable">
 		<table>
-			<form method="POST" action="http://localhost/myProfile/phpLabs/lab7/index.php">
+			<form method="POST" action="index.php">
 				<tr>
 					<td colspan="2">
 						<input type="text" name="teacherName" placeholder="Прізвище І.П." pattern="[А-Я-І][а-я-і]{2,}\s[А-Я-І]{1}\.[А-Я-І]{1}\." required>
@@ -87,7 +87,7 @@
 		if(isset($_POST['addLector'])) {
 			$teacher->setName($_POST['teacherName']);
 			$teacher->insert();
-			header("Location: http://localhost/myProfile/phpLabs/lab7");
+			header("Location: index.php");
 		}
 	?>
 
@@ -99,7 +99,7 @@
 
 	<h2>ПОШУК</h2>
 	<table border="2">
-		<form method="POST" action="http://localhost/myProfile/phpLabs/lab7/index.php">
+		<form method="POST" action="index.php">
 			<tr>
 				<td><input type="search" placeholder="Введіть предмет" name="0"></td>
 				<td><input type="search" placeholder="Введіть номер" pattern="^[ 0-9]+$" name="1"></td>

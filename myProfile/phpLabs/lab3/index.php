@@ -14,7 +14,7 @@
 </head>
 <body>
 		<h2>Інформація про навчальні предмети</h2>
-		<form method='POST' action='http://localhost/myProfile/phpLabs/lab3/send.php'>
+		<form method='POST' action='send.php'>
 			<table  border="2" cellspacing="2" >
 				<tr>
 					<th>Предмет</th>

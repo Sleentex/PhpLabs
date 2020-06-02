@@ -15,7 +15,7 @@
 <body>
 	<h2>Інформація про навчальні предмети</h2>
 	<table  border="2" cellspacing="2" >
-		<form method='POST' action='http://localhost/myProfile/phpLabs/lab4/send.php'>
+		<form method='POST' action='send.php'>
 			<tr>
 				<th>Предмет</th>
 				<th>Семестр</th>
@@ -61,7 +61,7 @@
 
 	<h2>ПОШУК</h2>
 	<table border="2">
-		<form method="POST" action="http://localhost/myProfile/phpLabs/lab4/index.php">
+		<form method="POST" action="index.php">
 			<tr>
 				<td><input type="search" placeholder="Введіть предмет" pattern="^[А-Яа-яІі\s]+$" name="0"></td>
 				<td><input type="search" placeholder="Введіть номер" pattern="^[ 0-9]+$" name="1"></td>

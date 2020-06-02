@@ -30,7 +30,7 @@
 <body style="text-align: center;">
 	<p style="font-weight: bold; font-size: 20px;">Виберіть бажану дату</p>
 
-	<form method="POST" action="http://localhost/myProfile/phpLabs/lab8/">
+	<form method="POST" action="index.php">
 		<input type="date" name="date" value="<?= $nowDate ?>">
 		<input type="submit" name="submit" value="Натисніть тут">
 	</form>

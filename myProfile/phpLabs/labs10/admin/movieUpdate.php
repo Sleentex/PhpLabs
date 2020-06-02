@@ -52,7 +52,7 @@
 			</tr>	
 			<tr>
 				<td colspan="2">
-					<textarea name="describe" maxlength="250" placeholder="Введіть опис фільма" style="width: 800px; height: 100px;  margin: 10px;" required><?=$movie->getVideoDescribe()?></textarea>
+					<textarea name="describe" minlength="200" maxlength="450" placeholder="Введіть опис фільма" style="width: 800px; height: 100px;  margin: 10px;" required><?=$movie->getVideoDescribe()?></textarea>
 				</td>
 			</tr>
 			<tr>

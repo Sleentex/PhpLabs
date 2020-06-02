@@ -11,7 +11,7 @@
 	fwrite($file, $line);
 ?>
 
-<?php header("Location: http://localhost/myProfile/phpLabs/lab4"); ?>
+<?php header("Location: index.php"); ?>
 <!-- <script type="text/javascript">
   	window.location.href = "http://localhost/labs/lab3";
  </script> --> 

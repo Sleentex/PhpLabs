@@ -21,7 +21,7 @@
 		 <h2>Характеристики Apple Iphone</h2>	 
 <!-- header("location: ") -->
 		<script type="text/javascript">
-		 	window.location.href = "http://localhost/myProfile/phpLabs/lab2";
+		 	window.location.href = "index.php";
 		</script>
 </body>
 </html>

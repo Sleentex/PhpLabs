@@ -39,4 +39,4 @@
 		} 
   	}
 ?>
-<?php header("Location: http://localhost/myProfile/phpLabs/lab4"); ?>
+<?php header("Location: index.php"); ?>

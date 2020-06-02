@@ -1,5 +1,5 @@
 <?php  
-require_once "../../connect1/connect.php";
+require_once "../connect1/connect.php";
 abstract class DbObject
 {   
     private $connection;

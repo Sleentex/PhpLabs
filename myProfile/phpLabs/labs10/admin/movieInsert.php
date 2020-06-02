@@ -33,7 +33,7 @@
 			</tr>	
 			<tr>
 				<td colspan="2">
-					<textarea name="describe" maxlength="250" placeholder="Введіть опис фільма" style="width: 800px; height: 100px;  margin: 10px;" required></textarea>
+					<textarea name="describe" minlength="100" maxlength="250" placeholder="Введіть опис фільма" style="width: 800px; height: 100px;  margin: 10px;" required></textarea>
 				</td>
 			</tr>
 			<tr>

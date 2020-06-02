@@ -10,5 +10,5 @@
 
 		$subject->insert();
 	}
-	header("Location: http://localhost/myProfile/phpLabs/lab7");
+	header("Location: index.php");
 ?>

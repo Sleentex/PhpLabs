@@ -13,5 +13,5 @@
 		    die($message);
 		}
 	}
-	header("Location: http://localhost/myProfile/phpLabs/lab6");
+	header("Location: index.php");
 ?>
