@@ -1,0 +1,61 @@
+ul.menuAdmin {
+	float: left; /* here was left */
+}
+
+ul.menuAdmin li {
+	float: left;
+	padding: 0px 0px 0 9px; /* 0 0 0 0 */		
+	margin: 1px 2px 0 0; /* 8 30 0 0*/
+}
+
+ul.menuAdmin li a {
+	font: normal 80% 'trebuchet ms', sans-serif;
+	
+	padding: 6px 5px 5px 8px;
+	color: black;
+	text-decoration: none;
+}
+
+ul.menuAdmin li.selected a {
+	color: #aeb002;
+}
+
+ul.menuAdmin li a:hover {
+	color: #e4ec04;
+}
+
+
+
+.myTable table {
+	width: 	840px;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}	
+
+.myTable table td{
+	text-align: center;
+	padding: 5px;
+}	
+
+textarea {
+	resize: none;
+}
+
+
+input {
+	width: 82px;
+}
+
+input[type="reset"] {
+	margin-bottom: 15px;
+}
+
+input[type="submit"] {
+	width: 130px; 
+	height: 40px;
+}
+
+
+
