@@ -11,7 +11,7 @@
 
 ?>
 
-<?php require_once "help_pages/header.php"; ?>
+<?php require_once "help_pages/header.php";?>
 
 			<div class="menubar">
 				<ul class="menu">

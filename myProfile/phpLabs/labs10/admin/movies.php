@@ -20,7 +20,7 @@
 				<?php foreach ($movies as $value) : ?>
 					<tr>
 					<td>
-						<a href="showMovie.php?movie_id=<?=$value->getId()?>">
+						<a href="#">
 							<?=$value->getName()?>
 						</a>
 					</td>
